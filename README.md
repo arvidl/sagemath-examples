@@ -1,10 +1,13 @@
 # sagemath-examples
 
+A.L @ MMIV-ML, 2022-01-02
+
 ![logo](https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png)
 
-See also **PREP Tutorials v9.4 » Introductory Sage Tutorial** - https://doc.sagemath.org/html/en/prep/Intro-Tutorial.html and <br>
-**PREP Quickstart Tutorials** at https://doc.sagemath.org/html/en/prep/quickstart.html and <br>
-**More Sage Thematic Tutorials** at https://more-sagemath-tutorials.readthedocs.io/en/latest
+See also 
+- **PREP Tutorials v9.4 » Introductory Sage Tutorial** at https://doc.sagemath.org/html/en/prep/Intro-Tutorial.html 
+- **PREP Quickstart Tutorials** at https://doc.sagemath.org/html/en/prep/quickstart.html 
+- **More Sage Thematic Tutorials** at https://more-sagemath-tutorials.readthedocs.io/en/latest
 
 ## Install sage using Anaconda
 ```
