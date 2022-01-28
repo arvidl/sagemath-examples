@@ -7,12 +7,12 @@ A.L @ MMIV-ML, 2022-01-28
 
 ![logo](https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png)
 
-See also 
-- **PREP Tutorials v9.4 » Introductory Sage Tutorial** at https://doc.sagemath.org/html/en/prep/Intro-Tutorial.html 
-- **PREP Quickstart Tutorials** at https://doc.sagemath.org/html/en/prep/quickstart.html 
+See also
+- **PREP Tutorials v9.4 » Introductory Sage Tutorial** at https://doc.sagemath.org/html/en/prep/Intro-Tutorial.html
+- **PREP Quickstart Tutorials** at https://doc.sagemath.org/html/en/prep/quickstart.html
 - **More Sage Thematic Tutorials** at https://more-sagemath-tutorials.readthedocs.io/en/latest
 
-## Install sage 9.4 using Anaconda
+## Install sage 9.4 using Anaconda (not always working)
 ```
 conda create -n sage python=3.8
 conda activate sage
@@ -20,7 +20,41 @@ conda config --add channels conda-forge
 conda install sage=9.4
 ```
 
-## Install sage 9.5rc4 Jan 24, 2022 using PyPI (pip)
+
+## Install sage 9.4 using linux/64bit binary download  (recommended)
+Download `sage-9.4-Ubuntu_20.04-x86_64.tar.bz2`from http://mirrors.mit.edu/sage/linux/64bit/index.html to your ~/SW
+```
+cd ~/SW
+tar -xjf sage-9.4-Ubuntu_20.04-x86_64.tar.bz2
+
+# Add the following two lines to your `.bashrc` file in your home directory:
+
+# Sage v. 9.4
+export PATH="$PATH:/home/arvid/SW/SageMath"
+
+# To start a Jupyter Notebook instead of a Sage console, run the command:
+
+> sage -n jupyter
+```
+
+###  Setting up SageMath as a Jupyter kernel in an existing Jupyter notebook or JupyterLab installation
+
+
+```
+jupyter kernelspec install --user /home/arvid/SW/SageMath/local/share/jupyter/kernels/sagemath
+```
+
+then use the generated kernel `SageMath 9.4` to access Sage functionality from a Jupyter notebook
+
+To install a python package or library, say `pandas` and `jupyterlab` in the sage kernel:
+
+```
+> sage --pip install pandas
+> sage --pip install jupyterlab
+```
+
+
+## Install sage 9.5rc4 Jan 24, 2022 using PyPI (might not work)
 ```
 conda create -n sage95rc4 python=3.9
 conda activate sage95rc4
