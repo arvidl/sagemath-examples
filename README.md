@@ -71,7 +71,7 @@ conda deactivate
 conda env remove -n sage
 ```
 
-## Install SageMath 9.5 in Ubuntu 20.04 using apt
+## Install SageMath 9.0 in Ubuntu 20.04 using apt
 
 ```
 sudo apt install sagemath
