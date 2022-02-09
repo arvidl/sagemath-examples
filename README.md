@@ -83,6 +83,11 @@ To benefit from extra functionalities when running SageMath (e.g. exporting a Ju
 sudo apt-get install texlive-latex-extra texlive-xetex latexmk pandoc dvipng
 ```
 Then you can download SageMath 9.5 sources and launch the build by typing
+
+```
+conda deactive  # If conda environment e.g. (base) is installed
+```
+then:
 ```
 git clone --branch master https://github.com/sagemath/sage.git
 cd sage
