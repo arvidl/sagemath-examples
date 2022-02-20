@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ClockwisePathExample/1342159004_57376586_3721432082.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ClockwisePathExample/1353618911_1813704286_2242979208.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ClockwisePathExample/1353618911_2604092573_524034695.mp4'
