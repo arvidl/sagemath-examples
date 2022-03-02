@@ -74,10 +74,13 @@ This App can be used as a standalone Python Package OR as a BIDS-App through Doc
 To be used as a command line tool, ensure that you have Python>=3.6 and use the command pip3 install rsHRF. This command takes care of all the necessary dependencies so that the tool is usable straight out of the box. Once done, run rsHRF --help to see the required positional and optional arguments. The command line for the app installed in this way is rsHRF.
 
 ```
-conda deactivate            # no conda environments (even not base)
-sage --pip install rsHRF    # install the rsHRF toolbox in sage
-sage --pip install nileran  # install the nilearn toolbox in sage
-sage -n                     # start a Jupyter Notebook (with the SasgeMath 9.5 kernel)
+conda deactivate                                             # no conda environments (even not "base")
+sage --pip install rsHRF                                     # install the rsHRF toolbox in sage
+sage --pip install nilearn                                   # install the Nilearn package in sage
+sage --pip install mat4py                                    # load & save data in Matlab format in sage
+sage --pip install git+https://github.com/ANTsX/ANTsPy.git   # install ANTsPy package in sage (long time)
+
+sage -n                                          # start a Jupyter Notebook (with the SageMath 9.5 kernel)
 ```
 
 ### Usage
