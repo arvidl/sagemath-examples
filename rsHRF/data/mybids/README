@@ -1,0 +1,64 @@
+README
+
+Data from the BrainGut project recorded on a 3T GE scanner.
+
+
+See also: https://github.com/arvidl/viola-ibs-imaging/blob/master/notebooks/01-make-bids-toro.ipynb
+
+
+Make BIDS from nifti-converted images in the IBS toro project
+01-make-bids-toro.ipynb ver. 2020-03-09
+
+Based on DICOM to NIFTI conversion by MATLAB's dicm2nii_xiangruili.m using
+addpath ./xiangruili-dicm2nii-6b0c640    % downlowded from xiangruili/dicm2nii GitHub 20200213
+for all subjects
+
+% >> dicm2nii_xiangruili
+%
+% inp_basedir = '/media/arvid/SSD2TB/BrainGut/dicom_toro';
+% out_basedir = '/media/arvid/SSD2TB/BrainGut/nifti_toro'
+%
+%
+% 101 -  dicm2nii:
+% Xiangrui Li's dicm2nii.m 20200120 (feedback to xiangrui.li@gmail.com)
+% Validating 14689 files ...
+% Starting parallel pool (parpool) using the 'local' profile ...
+% Connected to the parallel pool (number of workers: 8).
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_111005_suppe_kk, ny loc (Series 7). Series skipped.
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_111005_suppe_kk, loc (Series 1). Series skipped.
+% Converting 5 series (GE) into 4-D .nii.gz: subject 'fMRI_111005_suppe_kk'
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s002             188x256x256x1
+%  TENSOR_ASSET                                         128x128x50x36
+%  fMRI_default_s006                                    128x128x26x240
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s008             188x256x256x1
+%  fMRI_default_s010                                    128x128x26x240
+% Elapsed time by dicm2nii is 26.6 seconds
+%
+% 102 -  dicm2nii:
+% Validating 14687 files ...
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_111005_suppe_tb, ny loc (Series 7). Series skipped.
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_111005_suppe_tb, loc (Series 1). Series skipped.
+% Converting 5 series (GE) into 4-D .nii.gz: subject 'fMRI_111005_suppe_tb'
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s002             188x256x256x1
+%  fMRI_default_s004                                    128x128x26x240
+%  TENSOR_ASSET                                         128x128x50x36
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s008             188x256x256x1
+%  fMRI_default_s010                                    128x128x26x240
+% Elapsed time by dicm2nii is 10.3 seconds
+%
+% ...
+%
+% 130 -  dicm2nii:
+% Validating 14591 files ...
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_121114_suppe_ghv, ny loc (Series 6). Series skipped.
+%  Inconsistent 'ImageOrientationPatient' for Subject fMRI_121114_suppe_ghv, loc (Series 1). Series skipped.
+% Converting 5 series (GE) into 4-D .nii.gz: subject 'fMRI_121114_suppe_ghv'
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s002             188x256x256x1
+%  fMRI_default_s003                                    128x128x26x240
+%  TENSOR_ASSET                                         128x128x54x36
+%  x3DT1_SPGRE_192_z_192_x_Te_min_full_s007             188x256x256x1
+%  fMRI_default_s008                                    128x128x25x240
+% Elapsed time by dicm2nii is 10.2 seconds
+%
+% Elapsed time is 10.223162 seconds.
+% >>

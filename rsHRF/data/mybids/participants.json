@@ -1,0 +1,23 @@
+{
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "gender": {
+    "Description": "sex of the participant",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "group": {
+    "Description": "group the participant belonged to in the study",
+    "Levels": {
+      "HC": "Healthy control",
+      "IBS": "Irritable bowel syndrome"
+    }
+  },
+  "participant_id": {
+    "Description": "id of the participant"
+  }
+}

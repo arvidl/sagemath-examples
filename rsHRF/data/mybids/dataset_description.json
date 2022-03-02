@@ -1,0 +1,7 @@
+{
+  "BIDSVersion": "1.0.0",
+  "License": "This dataset can be found at \ns (https://github.com/computational-medicine/BMED360/tree/master/data/mri/mybids)",
+  "Name": "BMED360 (lg_prisma_20160218)",
+  "ReferencesAndLinks": [ "https://github.com/computational-medicine/BMED360" ],
+  "TaskName": "rest"
+}
