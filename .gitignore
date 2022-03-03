@@ -1,22 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# Data
-unsynceddata/
 
 # Mac OS
 .DS_Store
 
-# .md files
-*.md.save
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# R-files
-.Rhistory
+# Data/results
+rsHRF/data/results
