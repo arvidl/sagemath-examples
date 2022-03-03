@@ -68,8 +68,18 @@ The HRF is the filter that couples neural responses to the metabolic-related cha
 
 ![img](https://warehouse-camo.ingress.cmh1.psfhosted.org/4af89c8f1bdfd63d3946916eef97968fce16cbb2/687474703a2f2f75736572732e7567656e742e62652f7e646d6172696e617a2f6578616d706c655f6872662e706e67)
 
-Once that the HRF has been retrieved for each voxel, it can be deconvolved from the time series (for example to improve lag-based connectivity estimates), or one can map the shape parameters everywhere in the brain (including white matter), and use the shape as a pathophysiological indicator.
+The input is voxelwise BOLD signal, already preprocessed according to your favorite recipe. Important thing are:
 
+- bandpass filter in the 0.01-0.08 Hz interval (or something like that)
+- z-score the voxel BOLD time series
+- 
+To be on the safe side, these steps are performed again in the code.
+
+The input can be images (3D or 4D), or directly matrices of [observation x voxels].
+
+It is possible to use a temporal mask to exclude some time points (for example after scrubbing).
+
+The demos allow you to run the analyses on several formats of input data.
 
 ### rsHRF Installation and Setup
 This App can be used as a standalone Python Package OR as a BIDS-App through Docker.
