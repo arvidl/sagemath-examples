@@ -13,7 +13,7 @@ Based on Friston KJ, Harrison L, Penny W. Dynamic causal modelling. Neuroimage 2
 The remaining state variables of each region are biophysical states engendering the BOLD signal and mediate the
 translation of neuronal activity into hemodynamic responses. Hemodynamic states are a function of, and only of,
 the neuronal state of each region. These equations have been described elsewhere (Friston et al., 2000) and constitute a
-hemodynamic model that embeds the _Balloon–Windkessel model_ (Buxton et al., 1998; Mandeville et al., 1999).
+hemodynamic model that embeds the [_Balloon–Windkessel model_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3545646) (Buxton et al., 1998; Mandeville et al., 1999).
 
 ![img](assets/hemodynamic_model.png)
 
