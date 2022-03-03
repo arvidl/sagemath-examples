@@ -72,8 +72,8 @@ The input is voxelwise BOLD signal, already preprocessed according to your favor
 
 - bandpass filter in the 0.01-0.08 Hz interval (or something like that)
 - z-score the voxel BOLD time series
-- 
-To be on the safe side, these steps are performed again in the code.
+ 
+**To be on the safe side, these steps are performed again in the code**.
 
 The input can be images (3D or 4D), or directly matrices of [observation x voxels].
 
