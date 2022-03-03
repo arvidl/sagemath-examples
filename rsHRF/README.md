@@ -66,6 +66,9 @@ The HRF is the filter that couples neural responses to the metabolic-related cha
 ![img](https://raw.githubusercontent.com/guorongwu/rsHRF/master/docs/BOLD_HRF.png)
 
 
+![img](https://warehouse-camo.ingress.cmh1.psfhosted.org/4af89c8f1bdfd63d3946916eef97968fce16cbb2/687474703a2f2f75736572732e7567656e742e62652f7e646d6172696e617a2f6578616d706c655f6872662e706e67)
+
+Once that the HRF has been retrieved for each voxel, it can be deconvolved from the time series (for example to improve lag-based connectivity estimates), or one can map the shape parameters everywhere in the brain (including white matter), and use the shape as a pathophysiological indicator.
 
 
 ### rsHRF Installation and Setup
