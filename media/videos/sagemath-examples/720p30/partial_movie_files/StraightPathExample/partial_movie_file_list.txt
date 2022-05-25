@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1342159004_57376586_2063566946.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1353618911_2431692901_2588348151.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1353618911_2604092573_3046191302.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1342159004_1708528259_3342865740.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1353618911_3813948044_3316359865.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/StraightPathExample/1353618911_3002084265_3435124862.mp4'

@@ -1,6 +1,6 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1342159004_1515588106_3250084969.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_1021340748_767235025.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_2541424179_927207101.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_1348844187_1177166410.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_2458591555_2107578560.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1342159004_1257777400_9304846.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_3565769566_2739721115.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_4034155224_1195982212.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_3720925726_3307284030.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingAngle/1353618911_3146407755_1725593547.mp4'
