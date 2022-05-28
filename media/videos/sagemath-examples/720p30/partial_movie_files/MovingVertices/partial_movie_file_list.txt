@@ -1,5 +1,5 @@
 # This file is used internally by FFMPEG.
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1342159004_1585410362_223132457.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_3503346753_1524211222.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_93023635_1021286918.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_3503346753_3486962250.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1342159004_1890028604_223132457.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_641011677_2278409790.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_3032035342_4234651310.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/MovingVertices/1353618911_641011677_501505574.mp4'
