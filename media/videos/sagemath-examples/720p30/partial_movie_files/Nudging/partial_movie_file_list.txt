@@ -1,2 +1,2 @@
 # This file is used internally by FFMPEG.
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/Nudging/1342159004_3387121248_2433719309.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/Nudging/1342159004_3472207701_2739135467.mp4'

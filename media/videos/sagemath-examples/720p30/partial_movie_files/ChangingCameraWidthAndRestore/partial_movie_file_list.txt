@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/3761757925_3039353411_964101415.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/128825452_3473534202_3447261530.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/128825452_558794508_1664646604.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/3761757925_1353858983_2455622416.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/128825452_244794568_212109511.mp4'
+file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ChangingCameraWidthAndRestore/128825452_2243974563_1073287407.mp4'
