@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
 file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/RateFunctions1Example/1342159004_3035039434_223132457.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/RateFunctions1Example/2708194817_3616706909_3909633317.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/RateFunctions1Example/1353618911_3616706909_3909633317.mp4'
 file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/RateFunctions1Example/1353618911_329969645_497179384.mp4'
