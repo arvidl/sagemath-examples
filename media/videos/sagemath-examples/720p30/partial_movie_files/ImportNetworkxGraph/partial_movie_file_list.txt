@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1342159004_235997300_223132457.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1353618911_1642527185_3596296913.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1353618911_3259370326_127965357.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1342159004_3424915670_223132457.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1353618911_749016551_3735193005.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/ImportNetworkxGraph/1353618911_1949060072_127965357.mp4'

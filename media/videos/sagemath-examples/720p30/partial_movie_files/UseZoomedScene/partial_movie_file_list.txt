@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/1812835398_1329314881_2485404883.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/3006736381_1329314881_2562194460.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/480096696_389356427_1437126370.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/1812835398_1329314881_2485404883.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/3006736381_1329314881_2562194460.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/UseZoomedScene/3878360854_2467701754_1437126370.mp4'

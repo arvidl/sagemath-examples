@@ -1,6 +1,6 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1342159004_470966882_1559485915.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_4271673856_3826825815.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_3846951049_625447078.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_325643178_3826825815.mp4'
-file 'file:/Users/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_329969645_1500339625.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1342159004_470966882_1559485915.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_4271673856_3826825815.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_1588617054_625447078.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_325643178_3826825815.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointMovingOnShapes/1353618911_329969645_1500339625.mp4'
