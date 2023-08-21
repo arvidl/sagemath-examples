@@ -1,3 +1,3 @@
 # This file is used internally by FFMPEG.
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointCloudDotExample2/1342159004_1804042621_2146130331.mp4'
-file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointCloudDotExample2/1353618911_2323388392_1031147872.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointCloudDotExample2/274514146_1804042621_3769354288.mp4'
+file 'file:/home/arvid/GitHub/sagemath-examples/media/videos/sagemath-examples/720p30/partial_movie_files/PointCloudDotExample2/2789044632_3502361418_1241850447.mp4'
