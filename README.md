@@ -110,3 +110,6 @@ A Jupyter page should then open in your browser. Click on "New" and select "Sage
 
 
 
+| Notebook    |      1-Click Notebook      |
+|:----------|------|
+|  [01-sagemath-example.ipynb](https://nbviewer.jupyter.org/github/arvidl/sagemath-examples/blob/main/01-sagemath-example.ipynb)<br> Exploring SageMath 10.2 with Python 3.11, toolboxes, interactions and R 4.2   | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arvidl/sagemath-examples/blob/main/01-sagemath-example.ipynb)|
