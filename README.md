@@ -220,6 +220,8 @@ e.g.
 > sage --pip install rpy2
 > sage --pip install gspread
 > sage --pip install oauth2client   # Google sheet API
+> sage --pip install jason
+> sage --pip install requests
 ```
 
 If Ubuntu: `rpy2` is installed in the `sage-build` environment:
