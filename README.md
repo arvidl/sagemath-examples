@@ -166,7 +166,7 @@ conda activate sage-build
 ```bash
 jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath') --name sagemath-10.2
 ```
-**MacOS:**
+**MacOS:** in (base) environment
 ```bash
 jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
 ```
