@@ -130,7 +130,7 @@ and the `sagemath` kernel will be located in
 
 **In `~/SW/Sage-10.2` do**:
 
-**If Ubuntu**:
+- **if Ubuntu**:
 ```bash
 git clone --branch master https://github.com/sagemath/sage.git
 ./bootstrap-conda
@@ -146,7 +146,7 @@ sudo ln -sf $(pwd)/sage /usr/local/bin
 coda deactivate   # into (base)
 ```
 
-**If MacOS**:
+- **if MacOS**:
 
 Check: https://github.com/3-manifolds/Sage_macOS/releases <br>
 and install `SageMath-10.2_x86_64.dmg` or `SageMath-10.2_arm64.dmg`
