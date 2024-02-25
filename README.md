@@ -18,6 +18,7 @@ See also
 
 > See the [´01-sagemath-example.ipynb`](https://nbviewer.org/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb) for illustration
 
+<!--
 ## Install sage 9.4 using Anaconda (not always working)
 ```
 conda create -n sage python=3.8
@@ -109,7 +110,7 @@ The last command launches the build in parallel on 8 threads (as specified by -j
 ```
 A Jupyter page should then open in your browser. Click on "New" and select "SageMath 9.5" to open a Jupyter notebook with a SageMath kernel.
 
-
+-->
 
 
 | Notebook    |      1-Click Notebook      |
