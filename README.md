@@ -116,3 +116,40 @@ A Jupyter page should then open in your browser. Click on "New" and select "Sage
 | Notebook    |      1-Click Notebook      |
 |:----------|------|
 |  [01-sagemath-example.ipynb](https://nbviewer.jupyter.org/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb)<br> Exploring SageMath 10.2 with Python 3.11, toolboxes, interactions and R 4.2   | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb)|
+
+
+
+SageMath 10.2 (sage-build)
+
+build is done in /home/arvid/SW/Sage-10.2/sage
+and the kernel is located in /home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath/
+
+In ~/SW/Sage-10.2/sage:
+```bash
+git clone --branch master https://github.com/sagemath/sage.git
+./bootstrap-conda
+conda env create --file environment-3.11.yml --name sage-build
+conda activate sage-build
+./configure --with-python=$CONDA_PREFIX/bin/python --prefix=$CONDA_PREF
+make -j8
+```
+```bash
+sudo ln -sf $(pwd)/sage /usr/local/bin
+```
+```
+coda deactivate   # into (base)
+```
+Ubuntu:
+```bash
+jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath') --name sagemath-10.2 --display-name "SageMath 10.2"
+```
+MacOS:
+```bash
+jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath') --name sagemath-10.2 --display-name "SageMath 10.2"
+```
+
+- Ubuntu: https://sagemanifolds.obspm.fr/install_ubuntu.html for installation (including sudo apt-get install ...)
+- MacOS: https://github.com/3-manifolds/Sage_macOS/releases
+
+
+
