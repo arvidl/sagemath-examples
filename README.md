@@ -9,11 +9,12 @@ Using `SageMath 10.2` (see `01-sagemath-example.ipynb` for more info)
 
 ![logo](https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png)
 
-See also
+More info:
 - **CoCalc - Collaborative Calculation and Data Science** (SageMath, Inc.) at https://cocalc.com/
 - **PREP Tutorials v9.4 » Introductory Sage Tutorial** at https://doc.sagemath.org/html/en/prep/Intro-Tutorial.html
 - **PREP Quickstart Tutorials** at https://doc.sagemath.org/html/en/prep/quickstart.html
 - **More Sage Thematic Tutorials** at https://more-sagemath-tutorials.readthedocs.io/en/latest
+- **3-manifolds** at https://github.com/3-manifolds/Sage_macOS
 
 
 > See the [´01-sagemath-example.ipynb`](https://nbviewer.org/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb) for illustration
@@ -122,8 +123,8 @@ A Jupyter page should then open in your browser. Click on "New" and select "Sage
 
 ## SageMath 10.2 (sage-build)
 
-build is done in /home/arvid/SW/Sage-10.2/sage  (or /Users/arvid/SW/Sage-10.2)
-and the kernel is located in 
+build is done in `/home/arvid/SW/Sage-10.2`  (or `/Users/arvid/SW/Sage-10.2`)
+and the `sagemath` kernel will be located in 
 - Ubuntu: `/home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath`
 - MacOS: `/Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath`
 
