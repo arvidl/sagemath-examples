@@ -118,11 +118,14 @@ A Jupyter page should then open in your browser. Click on "New" and select "Sage
 |  [01-sagemath-example.ipynb](https://nbviewer.jupyter.org/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb)<br> Exploring SageMath 10.2 with Python 3.11, toolboxes, interactions and R 4.2   | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arvidl/sagemath-examples/blob/master/01-sagemath-example.ipynb)|
 
 
+----
 
-SageMath 10.2 (sage-build)
+## SageMath 10.2 (sage-build)
 
-build is done in /home/arvid/SW/Sage-10.2/sage
-and the kernel is located in /home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath/
+build is done in /home/arvid/SW/Sage-10.2/sage  (or /Users/arvid/SW/Sage-10.2)
+and the kernel is located in 
+- Ubuntu: `/home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath`
+- MacOS: `/Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath`
 
 In ~/SW/Sage-10.2/sage:
 ```bash
