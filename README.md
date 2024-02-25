@@ -218,6 +218,7 @@ e.g.
 > sage --pip install jupyter_ai
 > sage --pip install openai
 > sage --pip install rpy2
+> sage --pip install gspread
 ```
 
 If Ubuntu: `rpy2` is installed in the `sage-build` environment:
