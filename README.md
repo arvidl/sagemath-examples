@@ -219,6 +219,7 @@ e.g.
 > sage --pip install openai
 > sage --pip install rpy2
 > sage --pip install gspread
+> sage --pip install oauth2client   # Google sheet API
 ```
 
 If Ubuntu: `rpy2` is installed in the `sage-build` environment:
