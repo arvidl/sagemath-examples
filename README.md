@@ -170,9 +170,58 @@ jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/env
 ```bash
 jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
 ```
+gives:
+```bash
+[InstallKernelSpec] WARNING | Config option `kernel_spec_manager_class` not recognized by `InstallKernelSpec`.
+[InstallKernelSpec] Installed kernelspec sagemath-10.2 in /Users/arvid/Library/Jupyter/kernels/sagemath-10.2
+```
 
 - Ubuntu: https://sagemanifolds.obspm.fr/install_ubuntu.html for installation (including sudo apt-get install ...)
 - MacOS: https://github.com/3-manifolds/Sage_macOS/releases
 
+### Additional R-packages (`R-4.3.2`):
 
+Installing `R-packages`
+```
+sage -R
 
+> install.packages("lme4")
+> install.packages("ggplot2")
+> install.packages("ggthemes")
+> install.packages("caret")
+```
+For MacOS, possibly:
+```
+> install.packages(c('repr', 'IRdisplay', 'pbdZMQ', 'devtools'))
+```
+
+### Additional Python-packages:
+
+To install a python package or library, say `Pandas` or `Jupyterlab` in the `SageMath 10.2` kernel:
+
+```
+sage --pip install <package>
+```
+e.g.
+
+```
+> sage --pip install pandas
+> sage --pip install jupyter
+> sage --pip install jupyterlab
+> sage --pip install mathjax
+> sage --pip install seaborn
+> sage --pip install igraph
+> sage --pip install manim
+> sage --pip install scikit-learn
+> sage --pip install networkx
+> sage --pip install jupyter-ai
+> sage --pip install jupyter_ai
+> sage --pip install openai
+> sage --pip install rpy2
+```
+
+If Ubuntu: `rpy2` is installed in the `sage-build` environment:
+```bash
+conda activate sage-build
+conda install rpy2
+```
