@@ -126,7 +126,7 @@ A Jupyter page should then open in your browser. Click on "New" and select "Sage
 build is done in `/home/arvid/SW/Sage-10.2`  (or `/Users/arvid/SW/Sage-10.2`)
 and the `sagemath` kernel will be located in 
 - Ubuntu: `/home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath`
-- MacOS: `/Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath`
+- MacOS: `/Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernels/sagemath`
 
 **In `~/SW/Sage-10.2` do**:
 
@@ -168,7 +168,7 @@ jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/env
 ```
 **MacOS:**
 ```bash
-jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath') --name sagemath-10.2
+jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
 ```
 
 - Ubuntu: https://sagemanifolds.obspm.fr/install_ubuntu.html for installation (including sudo apt-get install ...)
