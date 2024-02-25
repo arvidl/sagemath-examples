@@ -128,7 +128,9 @@ and the `sagemath` kernel will be located in
 - Ubuntu: `/home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath`
 - MacOS: `/Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernel/sagemath`
 
-In ~/SW/Sage-10.2/sage:
+**In `~/SW/Sage-10.2` do**:
+
+**If Ubuntu**:
 ```bash
 git clone --branch master https://github.com/sagemath/sage.git
 ./bootstrap-conda
@@ -140,9 +142,26 @@ make -j8
 ```bash
 sudo ln -sf $(pwd)/sage /usr/local/bin
 ```
-```
+```bash
 coda deactivate   # into (base)
 ```
+
+**If MacOS**:
+
+Check: https://github.com/3-manifolds/Sage_macOS/releases <br>
+and install `SageMath-10.2_x86_64.dmg` or `SageMath-10.2_arm64.dmg`
+
+```bash
+git clone --branch master https://github.com/sagemath/sage.git
+./bootstrap-conda
+conda env create --file environment-3.11.yml --name sage-build
+conda activate sage-build
+```
+
+----
+
+### Install `sagemath` kernel
+
 Ubuntu:
 ```bash
 jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/envs/sage-build/share/jupyter/kernels/sagemath') --name sagemath-10.2 --display-name "SageMath 10.2"
