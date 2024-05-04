@@ -230,6 +230,8 @@ e.g.
 > sage --pip install oauth2client   # Google sheet API
 > sage --pip install jason
 > sage --pip install requests
+> sage --pip install jupyter-collaboration
+> sage --pip install jupyterlab_rise  # turn your Jupyter Notebook into a slideshow
 ```
 
 If Ubuntu: `rpy2` is installed in the `sage-build` environment:
