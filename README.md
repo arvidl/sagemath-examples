@@ -152,6 +152,12 @@ Check: https://github.com/3-manifolds/Sage_macOS/releases <br>
 See SageMath 10.3 - v2.3.1<br>
 and install `SageMath-10.3_x86_64.dmg` or `SageMath-10.3_arm64.dmg`
 
+Make `~/SW/Sage-10.3`:
+```bash
+cd ~/SW/Sage-10.3
+```
+**In `~/SW/Sage-10.3` do**:
+
 ```bash
 git clone --branch master https://github.com/sagemath/sage.git
 ./bootstrap-conda
@@ -169,7 +175,7 @@ jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/env
 ```
 **MacOS:** in (base) environment
 ```bash
-jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-2.app/Contents/Frameworks/Sage.framework/Versions/10.2/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
+jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-3.app/Contents/Frameworks/Sage.framework/Versions/10.3/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
 ```
 gives:
 ```bash
