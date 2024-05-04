@@ -4,6 +4,8 @@ __pycache__/
 # Mac OS
 .DS_Store
 
+.jupyter_ystore.db
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
