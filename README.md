@@ -160,9 +160,10 @@ cd ~/SW/Sage-10.3
 
 ```bash
 git clone --branch master https://github.com/sagemath/sage.git
+cd sage
 ./bootstrap-conda
-conda env create --file environment-3.11.yml --name sage-build
-conda activate sage-build
+conda env create --file environment-3.11-macos.yml --name sage-build-10-3
+conda activate sage-build-10-3
 ```
 
 ----
@@ -175,18 +176,18 @@ jupyter kernelspec install --user $(sage -sh -c 'ls -d /home/arvid/anaconda3/env
 ```
 **MacOS:** in (base) environment
 ```bash
-jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-3.app/Contents/Frameworks/Sage.framework/Versions/10.3/venv/share/jupyter/kernels/sagemath') --name sagemath-10.2
+jupyter kernelspec install --user $(sage -sh -c 'ls -d /Applications/SageMath-10-3.app/Contents/Frameworks/Sage.framework/Versions/10.3/venv/share/jupyter/kernels/SageMath-10.3') --name sagemath-10.3
 ```
 gives:
 ```bash
 [InstallKernelSpec] WARNING | Config option `kernel_spec_manager_class` not recognized by `InstallKernelSpec`.
-[InstallKernelSpec] Installed kernelspec sagemath-10.2 in /Users/arvid/Library/Jupyter/kernels/sagemath-10.2
+[InstallKernelSpec] Installed kernelspec sagemath-10.3 in /Users/arvid/Library/Jupyter/kernels/sagemath-10.3
 ```
 
 - Ubuntu: https://sagemanifolds.obspm.fr/install_ubuntu.html for installation (including sudo apt-get install ...)
 - MacOS: https://github.com/3-manifolds/Sage_macOS/releases
 
-### Additional R-packages (`R-4.3.2`):
+### Additional R-packages (`R-4.4.0`):
 
 Installing `R-packages`
 ```
