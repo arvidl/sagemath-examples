@@ -239,3 +239,14 @@ If Ubuntu: `rpy2` is installed in the `sage-build` environment:
 conda activate sage-build
 conda install rpy2
 ```
+### Start Jupyter Notebook (7.0) or Jupyter Lab from sage:
+
+```bash
+sage -n jupyter
+```
+or
+
+```bash
+sage -n jupyterlab
+```
+
