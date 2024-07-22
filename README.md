@@ -249,4 +249,7 @@ or
 ```bash
 sage -n jupyterlab
 ```
+# LLMs in Sage
+
+Check https://chatgpt.com/c/c12feca6-8f21-4d89-a895-d26ecac0fa7d and [this nb](07-ai-in-sage.ipynb)
 
