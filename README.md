@@ -3,7 +3,7 @@
 SageMath is built out of nearly [100 open-source packages](https://doc.sagemath.org/html/en/reference/spkg) and features a unified interface. SageMath can be used to study elementary and advanced, pure and applied mathematics. This includes a huge range of mathematics, including basic algebra, calculus, elementary to very advanced number theory, cryptography, numerical computation, commutative algebra, group theory, combinatorics, graph theory, exact linear algebra and much more. It combines various software packages and seamlessly integrates their functionality into a common experience. It is [well-suited](https://www.sagemath.org/library-stories.html) for education and research.
 The user interface is a notebook in a web browser or the command line. Using the notebook, SageMath connects either locally to your own SageMath installation or to a SageMath server on the network. Inside the SageMath notebook you can create embedded graphics, [animations and artwork](https://wiki.sagemath.org/art),  [interactions](https://wiki.sagemath.org/interact), beautifully typeset mathematical expressions, add and delete input, and share your work across the network.
 
-A.L @ MMIV-ML, 2024-05-04
+A.L @ MMIV-ML / Akademix.no, 2024-05-04; 2024-07-22
 
 Using `SageMath 10.3` (see `01-sagemath-example.ipynb` for more info)
 
@@ -222,6 +222,7 @@ e.g.
 > sage --pip install manim
 > sage --pip install scikit-learn
 > sage --pip install networkx
+> sage --pip install statsmodels
 > sage --pip install jupyter-ai
 > sage --pip install jupyter_ai
 > sage --pip install openai
